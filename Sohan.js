@@ -25,10 +25,11 @@
 
 // Task 4
 // Modify Your Existing Bmi calculator
-var weight = prompt("Enter your weight here in kilograms ")
-var height = prompt("Enter your height here in meters")
-var name = prompt("Enter your full name here")
-var bmi = weight/(height * height)
-alert(name + "'s BMI is " + bmi  )
 
+
+var weight = prompt("enter your weight in kg");
+var height = prompt("enter your height in meters")
+var bmi = weight/(height + height)
+var name = prompt("enter your full name")
+alert(name + " has a bmi of " + bmi);
 
