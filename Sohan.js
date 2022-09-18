@@ -26,6 +26,7 @@
 // Task 4
 // Modify Your Existing Bmi calculator
 
+
 var weight = prompt("enter your weight in kg");
 var height = prompt("enter your height in meters")
 var bmi = weight/(height + height)
