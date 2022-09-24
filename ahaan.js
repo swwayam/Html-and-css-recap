@@ -74,3 +74,8 @@ var totalCost;
 // Given are the above variables console log the total cost
 // select the i and 1 from the taskName and log them to the console
 // find out the reminder of cost / tax
+
+console.log(parseInt(cost) + parseInt(tax))
+console.log(taskName[6])
+console.log(tax[0])
+console.log(cost % tax)
