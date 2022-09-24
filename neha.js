@@ -53,7 +53,14 @@ alert(name + "'s BMI is " + bmi  )
 var taskName = "Apple Iphone 12"
 var cost = "900"
 var tax = "100"
-var totalCost;
+var totalCost ;
+
+console.log(cost + tax)
+console.log(parseInt(cost) + parseInt(tax))
+console.log(parseInt(cost) % parseInt(tax))
+
+console.log(taskName[6])
+console.log(taskName[13])
 
 // Given are the above variables console log the total cost
 // select the i and 1 from the taskName and log them to the console
