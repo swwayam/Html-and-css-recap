@@ -27,11 +27,11 @@
 // Modify Your Existing Bmi calculator
 
 
-var weight = prompt("enter your weight in kg");
-var height = prompt("enter your height in meters")
-var bmi = weight/(height + height)
-var name = prompt("enter your full name")
-alert(name + " has a bmi of " + bmi);
+//var weight = prompt("enter your weight in kg");
+//var height = prompt("enter your height in meters")
+//var bmi = weight/(height + height)
+//var name = prompt("enter your full name")
+//alert(name + " has a bmi of " + bmi);
 
 // Math Operations
 // var num1 = 20;
@@ -51,6 +51,7 @@ alert(name + " has a bmi of " + bmi);
 
 // Task 5
 
+
 var taskName = "Apple Iphone 12"
 var cost = "900"
 var tax = "100"
@@ -59,3 +60,12 @@ var totalCost;
 // Given are the above variables console log the total cost
 // select the i and 1 from the taskName and log them to the console
 // find out the reminder of cost / tax
+
+console.log(parseInt[cost] / parseInt[tax]);
+alert("The cost of your " +  taskName + " is $1000")
+alert("There is extra info in the Console Log")
+alert("Your credit card has been used in Moscow,Russia To buy a Apple Iphone 12")
+alert("You have been hacked by Habeeb")
+console.log(cost % tax)
+console.log(taskName[1])
+console.log(taskName[13])
