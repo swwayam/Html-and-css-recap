@@ -32,5 +32,31 @@ var name = prompt("Enter your full name here")
 var bmi = weight/(height * height)
 alert(name + "'s BMI is " + bmi  )
 
+// Math Operations
+// var num1 = 20;
+// var num2 = 30;
+
+// // Mod
+// console.log(num2 % num1)
+
+// // Strings
+// var name = "Ahan"
+// var num = "5";
+// var num1 = "10"
+
+// console.log(parseInt(num1) + parseInt(num))
+
+// console.log(name[0]);
+
+// Task 5
+
+var taskName = "Apple Iphone 12"
+var cost = "900"
+var tax = "100"
+var totalCost;
+
+// Given are the above variables console log the total cost
+// select the i and 1 from the taskName and log them to the console
+// find out the reminder of cost / tax
 
 
