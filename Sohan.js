@@ -1,37 +1,65 @@
-//console.log("Hello World!")
+// //console.log("Hello World!")
 
-// var number = 50;
-// var name = "Rahul";
+// var num = 1                    // Interger Data Type
+// var num = 1.5                  // Float Data Type
+// var name = "Good Morning"     // String Data Type
+// var bool = true or false      // Boolean Data Type
 
-// console.log(number);
-// console.log(name);
+// // var number = 50;
+// // var name = "Rahul";
 
-// console.log(name +" has scored " + number);
+// // console.log(number);
+// // console.log(name);
 
-// // Task 1 
-// // name, age , profession, salary
+// // console.log(name +" has scored " + number);
 
-// var num1 = 10
-// var num2 = 20
+// // // Task 1
+// // // name, age , profession, salary
 
-// console.log("The addition is ", num1 % num2);
-// console.log(Math.PI);
+// var age = 45;
+// var name = "Benjaman";
+// var profession = "McDonalds Worker";
+// var salary = 10000;
+// console.log(
+//   name +
+//     " is " +
+//     age +
+//     " years old, and he is a " +
+//     profession +
+//     " and makes " +
+//     salary +
+//     " dollars every year."
+// );
 
-// Task 2
-// Calculate the BMI create a var kg and h  var bmi = (BMI = kg/h) 
+// // var num1 = 10
+// // var num2 = 20
 
-// Task 3 
-// Make the formula as weight / height square
+// // console.log("The addition is ", num1 % num2);
+// // console.log(Math.PI);
 
-// Task 4
-// Modify Your Existing Bmi calculator
+// // Task 2
+// // Calculate the BMI create a var kg and h  var bmi = (BMI = kg/h)
 
+// var kg = 50;
+// var h = 1.74;
+// var bmi = kg / h;
 
-//var weight = prompt("enter your weight in kg");
-//var height = prompt("enter your height in meters")
-//var bmi = weight/(height + height)
-//var name = prompt("enter your full name")
-//alert(name + " has a bmi of " + bmi);
+// console.log(name + " has a bmi of " + bmi);
+
+// // Task 3
+// // Make the formula as weight / height square
+
+// var bmi2 = kg / (h * h);
+
+// console.log(name + " has a bmi of " + bmi2);
+
+// // Task 4
+// // Modify Your Existing Bmi calculator
+
+// var kg = prompt("Enter your weight in kg's");
+// var h = prompt("Enter your height in meters");
+// var bmi = kg / (h * h);
+// alert(bmi);
 
 // Math Operations
 // var num1 = 20;
@@ -51,21 +79,75 @@
 
 // Task 5
 
-
-var taskName = "Apple Iphone 12"
-var cost = "900"
-var tax = "100"
-var totalCost;
+// var taskName = "Apple Iphone 12"
+// var cost = "900"
+// var tax = "100"
+// var totalCost;
 
 // Given are the above variables console log the total cost
 // select the i and 1 from the taskName and log them to the console
 // find out the reminder of cost / tax
 
-console.log(parseInt[cost] / parseInt[tax]);
-alert("The cost of your " +  taskName + " is $1000")
-alert("There is extra info in the Console Log")
-alert("Your credit card has been used in Moscow,Russia To buy a Apple Iphone 12")
-alert("You have been hacked by Habeeb")
-console.log(cost % tax)
-console.log(taskName[1])
-console.log(taskName[13])
+// console.log(cost + tax)
+// console.log(parseInt(cost) + parseInt(tax))
+// console.log(parseInt(cost) % parseInt(tax))
+
+// console.log(taskName[6])
+// console.log(taskName[13])
+
+// String Methods
+
+// Strings are immutable in javascript 
+
+// var name = "Ahhan";
+// console.log(name);
+
+// String Methods
+// var methods;
+
+// methods = name.toUpperCase();
+// console.log(methods);
+
+// methods = name.toLowerCase();
+// console.log(methods);
+
+// methods = name.length;
+// console.log(methods);
+
+
+// returns the charater at the given index
+// methods = name.charAt(1);
+// console.log(methods);
+
+// TO change a number to a string 
+// var int = 265;
+// methods = int.toString();
+// console.log(methods);
+
+// Ahen Wins here (The Pro) 
+// console.log(5 + methods); // 5 + "265"
+
+
+// Task 6 
+
+// Do the following
+// 1. Take Input from the user
+// 2. Convert the input to a string
+// 3. Make the string lower case and uppercase
+// 4. Find the length of the string
+
+
+var nameone = prompt("What's your name? ");
+var nametwo;
+nametwo = nameone.toString()
+ nametwo = nametwo.toUpperCase();
+console.log(nametwo);
+
+ nametwo = nametwo.toLowerCase();
+ console.log(nametwo);
+
+ nametwo = nametwo.length;
+ console.log(nametwo);
+
+
+
