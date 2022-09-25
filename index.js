@@ -1,5 +1,10 @@
 // //console.log("Hello World!")
 
+// var num = 1                    // Interger Data Type
+// var num = 1.5                  // Float Data Type
+// var name = "Good Morning"     // String Data Type
+// var bool = true or false      // Boolean Data Type
+
 // // var number = 50;
 // // var name = "Rahul";
 
@@ -74,11 +79,63 @@
 
 // Task 5
 
-var taskName = "Apple Iphone 12"
-var cost = "900"
-var tax = "100"
-var totalCost;
+// var taskName = "Apple Iphone 12"
+// var cost = "900"
+// var tax = "100"
+// var totalCost;
 
 // Given are the above variables console log the total cost
 // select the i and 1 from the taskName and log them to the console
 // find out the reminder of cost / tax
+
+// console.log(cost + tax)
+// console.log(parseInt(cost) + parseInt(tax))
+// console.log(parseInt(cost) % parseInt(tax))
+
+// console.log(taskName[6])
+// console.log(taskName[13])
+
+// String Methods
+
+// Strings are immutable in javascript 
+
+// var name = "Ahhan";
+// console.log(name);
+
+// String Methods
+// var methods;
+
+// methods = name.toUpperCase();
+// console.log(methods);
+
+// methods = name.toLowerCase();
+// console.log(methods);
+
+// methods = name.length;
+// console.log(methods);
+
+
+// returns the charater at the given index
+// methods = name.charAt(1);
+// console.log(methods);
+
+// TO change a number to a string 
+// var int = 265;
+// methods = int.toString();
+// console.log(methods);
+
+// Ahen Wins here (The Pro) 
+// console.log(5 + methods); // 5 + "265"
+
+
+// Task 6 
+
+// Do the following
+// 1. Take Input from the user
+// 2. Convert the input to a string
+// 3. Make the string lower case and uppercase
+// 4. Find the length of the string
+
+
+
+
