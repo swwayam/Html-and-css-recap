@@ -137,5 +137,6 @@
 // 4. Find the length of the string
 
 
+// IF Else Statements 9-30-2022 EST
 
-
+var password = 
