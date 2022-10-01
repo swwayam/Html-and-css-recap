@@ -26,11 +26,12 @@
 // Task 4
 // Modify Your Existing Bmi calculator
 
-var weight = prompt("Enter your weight here in kilograms ")
-var height = prompt("Enter your height here in meters")
-var name = prompt("Enter your full name here")
-var bmi = weight/(height * height)
-alert(name + "'s BMI is " + bmi  )
+
+// var weight = prompt("Enter your weight here in kilograms ")
+// var height = prompt("Enter your height here in meters")
+// var name = prompt("Enter your full name here")
+// var bmi = weight/(height * height)
+// alert(name + "'s BMI is " + bmi  )
 
 // Math Operations
 // var num1 = 20;
@@ -65,3 +66,33 @@ alert(name + "'s BMI is " + bmi  )
 
 // console.log(taskName[6])
 // console.log(taskName[13])
+
+// Task 6 
+
+// Do the following
+// 1. Take Input from the user
+// 2. Convert the input to a string
+// 3. Make the string lower case and uppercase
+// 4. Find the length of the string
+
+var input = prompt("enter input")
+
+
+
+var methods;
+var name = input.toString();
+methods = input.toUpperCase();
+console.log(methods)
+methods = input.toLowerCase();
+console.log(methods)
+
+methods = input.length;
+console.log(methods)
+
+methods = input.charAt(1);
+console.log(methods)
+
+
+ 
+
+
