@@ -88,18 +88,37 @@
 // 3. Make the string lower case and uppercase
 // 4. Find the length of the string
 
-var input = prompt("raghh")
+//var input = prompt("raghh")
 
 
-var methods;
+//var methods;
 
-methods = input.toUpperCase();
-console.log(methods);
+//methods = input.toUpperCase();
+//console.log(methods);
 
-methods = input.toLowerCase();
-console.log(methods);
+//methods = input.toLowerCase();
+//console.log(methods);
 
-methods = input.length;
-console.log(methods);
+//methods = input.length;
+//console.log(methods);
+//Task 7
 
 
+for( var lineNumber = 2; lineNumber <= 100; lineNumber +=lineNumber){
+    console.log(lineNumber);
+}
+// Task 8
+// Take input from the user and check if the input contains 1 log to console the input constains 1 else alert there is no number.
+
+// IF Else Statements 9-30-2022 EST
+
+//var username = prompt("Enter The username")
+
+var ahhh = prompt("enter a sequence of numbers")
+
+    if(ahhh == 1){
+        console.log(ahhh)
+    }
+    else{
+        alert("There is no 1")
+    }
