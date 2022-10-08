@@ -75,24 +75,33 @@
 // 3. Make the string lower case and uppercase
 // 4. Find the length of the string
 
-var input = prompt("enter input")
+//var input = prompt("enter input")
 
 
 
-var methods;
-var name = input.toString();
-methods = input.toUpperCase();
-console.log(methods)
-methods = input.toLowerCase();
-console.log(methods)
+//var methods;
+//var name = input.toString();
+//methods = input.toUpperCase();
+//console.log(methods)
 
-methods = input.length;
-console.log(methods)
+// methods = input.toLowerCase();
+// console.log(methods)
 
-methods = input.charAt(1);
-console.log(methods)
+// methods = input.length;
+// console.log(methods)
 
+// methods = input.charAt(1);
+// console.log(methods)
 
+// var input = prompt("enter input")
  
+// if(input == 1){
+// console.log("the input contains 1")
+// }
+// else{
+//     alert("there is no number")
+// }
 
-
+for (var i = 2; i <= 100; i+=2) {
+    console.log(i);
+}
