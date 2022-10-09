@@ -203,24 +203,25 @@
 // You need to create 4 functions add(), sub(), 
 //multiply(), Divide()
 
-function add(n1, n2) {
-   var sum = n1 + n2;
-   console.log(sum);
-}
-add(10, 2)
-function subtract(n1, n2) {
-   var sum = n1 - n2;
-   console.log(sum);
-}
-subtract(10, 2)
-function multiply(n1, n2) {
-   var sum = n1 * n2;
-   console.log(sum);
-} multiply(10, 2)
-function divide(n1, n2) {
-   var sum = n1 / n2;
-   console.log(sum);
-} divide(10, 2)
+   // function add(n1, n2) {
+   //    var sum = n1 + n2;
+   //    console.log(sum);
+   // }
+   // add(10, 2)
+   // function subtract(n1, n2) {
+   //    var sum = n1 - n2;
+   //    console.log(sum);
+   // }
+   // subtract(10, 2)
+   // function multiply(n1, n2) {
+   //    var sum = n1 * n2;
+   //    console.log(sum);
+   // } multiply(10, 2)
+   // function divide(n1, n2) {
+   //    var sum = n1 / n2;
+   //    console.log(sum);
+   // } divide(10, 2)
+
 
 
 
