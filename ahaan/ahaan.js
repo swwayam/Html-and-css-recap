@@ -104,9 +104,9 @@
 //Task 7
 
 
-for( var lineNumber = 2; lineNumber <= 100; lineNumber +=lineNumber){
-    console.log(lineNumber);
-}
+//for( var x = 2; x <= 100; x +=2){
+ //   console.log(x);
+//}
 // Task 8
 // Take input from the user and check if the input contains 1 log to console the input constains 1 else alert there is no number.
 
@@ -117,8 +117,30 @@ for( var lineNumber = 2; lineNumber <= 100; lineNumber +=lineNumber){
 var ahhh = prompt("enter a sequence of numbers")
 
     if(ahhh == 1){
-        console.log(ahhh)
-    }
+       console.log(ahhh)
+   }
     else{
-        alert("There is no 1")
+       alert("There is no 1")
     }
+
+   //Task 9
+   /*function add(num1, num2){
+      var sum = num1 + num2
+      console.log(sum)
+   }
+   add(4, 8)
+   function subtract(num3, num4){
+    var difference = num3 - num4
+    console.log(difference)
+   }
+   subtract(5,2)
+   function multiply(num5, num6){
+   var product = num5*num6
+   console.log(product)
+   }
+   multiply(3, 7)
+   function divide(num7, num8){
+   var quotient = num7/num8
+   console.log(quotient)
+   }
+   divide(15, 5)*/
