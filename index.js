@@ -199,4 +199,5 @@ for (var lineNumber = 4; lineNumber < 101; lineNumber++) {
 // add(100,2)
 
 // Task 9
-// You need to create 4 functions add(), sub(), multiply(), Divide()
+// You need to create 4 functions add(),
+// sub(), multiply(), Divide()

@@ -94,7 +94,7 @@
 // console.log(methods)
 
 // var input = prompt("enter input")
- 
+
 // if(input == 1){
 // console.log("the input contains 1")
 // }
@@ -102,6 +102,32 @@
 //     alert("there is no number")
 // }
 
-for (var i = 2; i <= 100; i+=2) {
-    console.log(i);
+// for (var i = 2; i <= 100; i+=2) {
+//     console.log(i);
+// }
+
+function add(num1, num2) {
+  var sum = num1 + num2;
+  console.log(sum);
 }
+
+function sub(num1, num2) {
+  var difference = num1 - num2;
+  console.log(difference);
+}
+
+function divide(num1, num2) {
+  var quotient = num1 / num2;
+  console.log(quotient);
+}
+
+
+function multiply(num1, num2) {
+  var product = num1 * num2;
+  console.log(product);
+}
+
+add(10, 2)
+sub(10, 5)
+divide(12, 6)
+multiply(6, 3)
