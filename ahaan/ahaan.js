@@ -114,14 +114,14 @@
 
 //var username = prompt("Enter The username")
 
-var ahhh = prompt("enter a sequence of numbers")
+//var ahhh = prompt("enter a sequence of numbers")
 
-    if(ahhh == 1){
-       console.log(ahhh)
-   }
-    else{
-       alert("There is no 1")
-    }
+    //if(ahhh == 1){
+       //console.log(ahhh)
+   //}
+    //else{
+      //alert("There is no 1")
+    //}
 
    //Task 9
    /*function add(num1, num2){
