@@ -137,17 +137,44 @@
 // 4. Find the length of the string
 
 
-var nameone = prompt("What's your name? ");
-var nametwo;
-nametwo = nameone.toString()
- nametwo = nametwo.toUpperCase();
-console.log(nametwo);
+//var nameone = prompt("What's your name? ");
+//var nametwo;
+//nametwo = nameone.toString()
+ //nametwo = nametwo.toUpperCase();
+//console.log(nametwo);
 
- nametwo = nametwo.toLowerCase();
- console.log(nametwo);
+ //nametwo = nametwo.toLowerCase();
+ //console.log(nametwo);
 
- nametwo = nametwo.length;
- console.log(nametwo);
+ //nametwo = nametwo.length;
+ //console.log(nametwo);
 
+ //var name = "Shohahn"
+
+//for(var char = 0; char < name.length; char++){
+  //  if(name[char] == "h"){
+        //console.log("H is at index " + char)
+   // }
+//}
+
+//for(var number = 0; number < 100; number+=2){
+ //   console.log(number);
+//}
+
+// Task 8
+// Take input from the user and check if the input contains 1 if the input contains 1 log to console the input constains 1 else alert there is no number.
+
+// IF Else Statements 9-30-2022 EST
+
+//var username = prompt("Enter The username")
+
+//var username = prompt("Enter username")
+
+//if(username == "1"){
+//   console.log("There is a one in your username")
+   // }
+    //else{
+   //     alert("there are no 1's in your username ")
+    //}
 
 
