@@ -140,29 +140,31 @@
 //var nameone = prompt("What's your name? ");
 //var nametwo;
 //nametwo = nameone.toString()
- //nametwo = nametwo.toUpperCase();
+//nametwo = nametwo.toUpperCase();
 //console.log(nametwo);
 
- //nametwo = nametwo.toLowerCase();
- //console.log(nametwo);
+//nametwo = nametwo.toLowerCase();
+//console.log(nametwo);
 
- //nametwo = nametwo.length;
- //console.log(nametwo);
+//nametwo = nametwo.length;
+//console.log(nametwo);
 
- //var name = "Shohahn"
+//var name = "Shohahn"
 
 //for(var char = 0; char < name.length; char++){
-  //  if(name[char] == "h"){
-        //console.log("H is at index " + char)
-   // }
+//  if(name[char] == "h"){
+//console.log("H is at index " + char)
+// }
 //}
 
 //for(var number = 0; number < 100; number+=2){
- //   console.log(number);
+//   console.log(number);
 //}
 
 // Task 8
-// Take input from the user and check if the input contains 1 if the input contains 1 log to console the input constains 1 else alert there is no number.
+// Take input from the user and check if the input
+// contains 1 if the input contains 1 log to console 
+//the input constains 1 else alert there is no number.
 
 // IF Else Statements 9-30-2022 EST
 
@@ -172,9 +174,53 @@
 
 //if(username == "1"){
 //   console.log("There is a one in your username")
-   // }
-    //else{
-   //     alert("there are no 1's in your username ")
-    //}
+// }
+//else{
+//     alert("there are no 1's in your username ")
+//}
+
+// function charmender(){
+//     console.log('Fire ball');
+// }
+
+// charmender();
+// charmender();
+// charmender();
+
+
+// function add(num1,num2){
+//     var sum = num1 + num2;
+//     console.log(sum);
+// }
+
+// add(10,2)
+// add(2,2)
+// add(3,24)
+// add(6,56)
+// add(100,2)
+
+// Task 9
+// You need to create 4 functions add(), sub(), 
+//multiply(), Divide()
+
+function add(n1, n2) {
+   var sum = n1 + n2;
+   console.log(sum);
+}
+add(10, 2)
+function subtract(n1, n2) {
+   var sum = n1 - n2;
+   console.log(sum);
+}
+subtract(10, 2)
+function multiply(n1, n2) {
+   var sum = n1 * n2;
+   console.log(sum);
+} multiply(10, 2)
+function divide(n1, n2) {
+   var sum = n1 / n2;
+   console.log(sum);
+} divide(10, 2)
+
 
 
