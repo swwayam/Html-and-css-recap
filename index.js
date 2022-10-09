@@ -193,3 +193,47 @@
 
 // Task 9
 // You need to create 4 functions add(), sub(), multiply(), Divide()
+
+
+// Arrays
+
+// var name = "Ahan"
+// var name1 = "Sohan"
+// var name3 = "Neha"
+
+
+//var student = ["Ahan", "Sohan", "Neha", "Ceo of codingzen"];
+
+// console.log(student[0]);
+// console.log(student[1]);
+
+// student[2] = "Swayam";
+// console.log(student[2]);
+
+// To add element at the end of the array.
+// student.push("New Student")
+// student.push("New Student1")
+// student.push("New Student2")
+
+// To remove the last element of the array
+// student.pop();
+// student.pop();
+
+// To add the element infornt of the array.
+// student.unshift("Before Ahan")
+// student.unshift("Before Ahan1")
+// student.unshift("Before Ahan2")
+
+// To remove the first element of the array
+// student.shift()
+// student.shift()
+
+// Or Else use a for loop
+// for(var i = 0; i < student.length; i++){
+//     console.log(student[i]);
+// }
+
+// Task 10 
+// 1. You need to take 10 input from the user.
+// 2. Store in the array 
+// 3. To log the whole array in the console.
