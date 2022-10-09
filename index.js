@@ -244,3 +244,52 @@ for (var lineNumber = 4; lineNumber < 101; lineNumber++) {
 // 1. You need to take 10 input from the user.
 // 2. Store in the array 
 // 3. To log the whole array in the console.
+
+// Solution 1 - 
+
+// var inputs = []
+
+// var input1 = prompt("input1")
+// var input2 = prompt("input1")
+// var input3 = prompt("input1")
+// var input4 = prompt("input1")
+// var input5 = prompt("input1")
+// var input6 = prompt("input1")
+// var input7 = prompt("input1")
+// var input8 = prompt("input1")
+// var input9 = prompt("input1")
+// var input10 = prompt("input1")
+
+// inputs.push(input1);
+// inputs.push(input2);
+// inputs.push(input3);
+// inputs.push(input4);
+// inputs.push(input5);
+// inputs.push(input6);
+// inputs.push(input7);
+// inputs.push(input8);
+// inputs.push(input9);
+// inputs.push(input10);
+
+// console.log(inputs[0]);
+// console.log(inputs[1]);
+// console.log(inputs[2]);
+// console.log(inputs[3]);
+// console.log(inputs[4]);
+// console.log(inputs[5]);
+// console.log(inputs[6]);
+// console.log(inputs[7]);
+// console.log(inputs[8]);
+// console.log(inputs[9]);
+
+// Solution 2 - 
+var inputs = [];
+
+for(var i = 0; i < 10; i++){
+    var input = prompt("Enter any input");
+    inputs.push(input);
+}
+
+for(var i = 0; i < inputs.length; i++){
+         console.log(inputs[i]);
+ }
