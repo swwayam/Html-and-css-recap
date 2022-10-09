@@ -147,13 +147,17 @@
 // }
 
 
-// // For Loop 
-// for(var lineNumber = 0; lineNumber < 101; lineNumber++){
-//     console.log(lineNumber);
-// }
+
+// For Loop 
+for (var lineNumber = 4; lineNumber < 101; lineNumber++) {
+    console.log(lineNumber);
+}
+
 
 // Task 7
-// We have printed numbers form 1-100 now you guys need to print the number in following series - 0 2 4 6 .....
+// We have printed numbers form 1-100 now 
+//you guys need to print the number in following series - 0 2 4 6 .....
+
 
 
 // var name = "Shohahn"
@@ -164,8 +168,11 @@
 //     }
 // }
 
+
 // Task 8
-// Take input from the user and check if the input contains 1 if the input contains 1 log to console the input constains 1 else alert there is no number.
+// Take input from the user and check if the input contains 1 if the 
+//input contains 1 log to console the input constains 
+//1 else alert there is no number.
 
 // IF Else Statements 9-30-2022 EST
 
