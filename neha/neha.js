@@ -106,28 +106,99 @@
 //     console.log(i);
 // }
 
-function add(num1, num2) {
-  var sum = num1 + num2;
-  console.log(sum);
+// function add(num1, num2) {
+//   var sum = num1 + num2;
+//   console.log(sum);
+// }
+
+// function sub(num1, num2) {
+//   var difference = num1 - num2;
+//   console.log(difference);
+// }
+
+// function divide(num1, num2) {
+//   var quotient = num1 / num2;
+//   console.log(quotient);
+// }
+
+
+// function multiply(num1, num2) {
+//   var product = num1 * num2;
+//   console.log(product);
+// }
+
+// add(10, 2)
+// sub(10, 5)
+// divide(12, 6)
+// multiply(6, 3)
+
+// var inputs = []
+
+// var input1 = prompt("input1")
+// var input2 = prompt("input1")
+// var input3 = prompt("input1")
+// var input4 = prompt("input1")
+// var input5 = prompt("input1")
+// var input6 = prompt("input1")
+// var input7 = prompt("input1")
+// var input8 = prompt("input1")
+// var input9 = prompt("input1")
+// var input10 = prompt("input1")
+
+// inputs.push(input1);
+// inputs.push(input2);
+// inputs.push(input3);
+// inputs.push(input4);
+// inputs.push(input5);
+// inputs.push(input6);
+// inputs.push(input7);
+// inputs.push(input8);
+// inputs.push(input9);
+// inputs.push(input10);
+
+// console.log(inputs[0]);
+// console.log(inputs[1]);
+// console.log(inputs[2]);
+// console.log(inputs[3]);
+// console.log(inputs[4]);
+// console.log(inputs[5]);
+// console.log(inputs[6]);
+// console.log(inputs[7]);
+// console.log(inputs[8]);
+// console.log(inputs[9]);
+
+// 1. You need to take 5 inputs
+// 2. You need to store it in the array
+// 3. Remove the first three values from the array.
+// 4. Remove the last one value from the array.
+
+var input1 = prompt("input")
+var input2 = prompt("input")
+var input3 = prompt("input")
+var input4 = prompt("input")
+var input5 = prompt("input")
+
+
+ console.log(inputs[1]);
+ console.log(inputs[2]);
+ console.log(inputs[3]);
+ console.log(inputs[4]);
+ console.log(inputs[5]);
+
+inputs.push(input1);
+inputs.push(input2);
+inputs.push(input3);
+inputs.push(input4);
+inputs.push(input5);
+
+var inputs = [1,2,3];
+inputs.pop();
+console.log(inputs);
+
+for(var inputNumber = 0; inputNumber <= 10; inputNumber++){
+  var input = prompt("enter input");
 }
-
-function sub(num1, num2) {
-  var difference = num1 - num2;
-  console.log(difference);
+array.push(input)
+for(var i = 0; i < array.length; i++){
+  console.log(array[i]);
 }
-
-function divide(num1, num2) {
-  var quotient = num1 / num2;
-  console.log(quotient);
-}
-
-
-function multiply(num1, num2) {
-  var product = num1 * num2;
-  console.log(product);
-}
-
-add(10, 2)
-sub(10, 5)
-divide(12, 6)
-multiply(6, 3)
