@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    form{
+        width: 200px;
+        margin: 200px auto;
+        background-color: cornflowerblue;
+        padding: 15px;
+    }
+
+    input{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    button{
+        background-color: aquamarine;
+        font-size: 12px;
+        padding: 5px 10px;
+        border: 0;
+    }
+
+  </style>
+  <body>
+    <form>
+        <label for="Height in m">Enter Your Height</label>
+        <br>
+        <input type="number" id="height" placeholder="example - 1.5">
+        <br>
+        <label for="Weight in Kg">Enter Your Weight</label>
+        <br>
+        <input type="number" id="weight" placeholder="example - 60">
+        <br>
+        <button onclick="takeInputAndShowResult(event)" id="btn">Submit</button>
+    </form>
+    <script>
+        var height = document.getElementById("height");
+        var weight = document.getElementById("weight");
+        var button = document.getElementById("btn");
+
+
+        function takeInputAndShowResult(event){
+            event.preventDefault()
+            var userHeight = height.value;
+            var userWeight = weight.value;
+            
+            // HW 
+            // 1. All the things are given to you.
+            // 2. You have userHeight and userWeight as height and weight
+            // 3. You need to put in the bmi formula 
+            // 4. Calculate it and alert it to the user.
+
+            console.log(userHeight, userWeight);
+        }
+
+    </script>
+  </body>
+</html>
