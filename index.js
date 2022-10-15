@@ -149,9 +149,9 @@
 
 
 // For Loop 
-for (var lineNumber = 4; lineNumber < 101; lineNumber++) {
-    console.log(lineNumber);
-}
+// for (var lineNumber = 4; lineNumber < 101; lineNumber++) {
+//     console.log(lineNumber);
+// }
 
 
 // Task 7
@@ -283,13 +283,45 @@ for (var lineNumber = 4; lineNumber < 101; lineNumber++) {
 // console.log(inputs[9]);
 
 // Solution 2 - 
-var inputs = [];
+// var inputs = [];
 
-for(var i = 0; i < 10; i++){
-    var input = prompt("Enter any input");
-    inputs.push(input);
-}
+// for(var i = 0; i < 10; i++){
+//     var input = prompt("Enter any input");
+//     inputs.push(input);
+// }
 
-for(var i = 0; i < inputs.length; i++){
-         console.log(inputs[i]);
- }
+// for(var i = 0; i < inputs.length; i++){
+//          console.log(inputs[i]);
+//  }
+
+
+// for(var inputNumber = 0; inputNumber <= 10; inputNumber++){
+//     var input = prompt("Enter any input");
+//     array.push(input)
+// }
+
+// var number = 0;
+
+// while(number < 100){
+//     console.log(number);
+//     number++;
+// }
+
+// var nums = new Array(10);
+// // iterate over each element and prompt for value
+// for (var i = 0; i < nums.length; i++){
+//   var input = prompt('Enter number ' + (i + 1) + ' of ' + (nums.length + 1));
+//   // place value (as a number) into the array
+//   nums[i] = new Number(input);
+// }
+
+//  var array = [];
+
+// for(var inputNumber = 0; inputNumber <= 10; inputNumber++){
+//     var input = prompt('Enter number ' + (inputNumber + 1) + ' of 10');
+//     array.push(input)
+// }
+
+// for(var i = 0; i < array.length; i++){
+//     console.log(array[i]);
+// }
