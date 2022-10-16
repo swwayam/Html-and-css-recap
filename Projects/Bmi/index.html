@@ -13,6 +13,16 @@
         box-sizing: border-box;
     }
 
+    h1{
+      text-align: center;
+    }
+
+    h3{
+      text-align: center;
+      background-color: rgb(240, 26, 26);
+      padding: 5px 10px;
+    }
+
     form{
         width: 200px;
         margin: 200px auto;
@@ -34,7 +44,10 @@
 
   </style>
   <body>
+    <h1>Your Bmi = <span id="bmi"></span></h1>
+    <h3 id="error"></h3>
     <form>
+     
         <label for="Height in m">Enter Your Height</label>
         <br>
         <input type="number" id="height" placeholder="example - 1.5">
@@ -49,6 +62,8 @@
         var height = document.getElementById("height");
         var weight = document.getElementById("weight");
         var button = document.getElementById("btn");
+        var bmi = document.getElementById("bmi")
+        var error = document.getElementById("error")
 
 
         function takeInputAndShowResult(event){
@@ -56,13 +71,18 @@
             var userHeight = height.value;
             var userWeight = weight.value;
             
+            if (userHeight > 0 && userWeight > 0) {
+              bmi.innerHTML = userWeight / (userHeight * userHeight);
+            }else{
+              error.innerHTML = "Please Input All the appropriate values"
+            }
             // HW 
             // 1. All the things are given to you.
             // 2. You have userHeight and userWeight as height and weight
             // 3. You need to put in the bmi formula 
             // 4. Calculate it and alert it to the user.
 
-            console.log(userHeight, userWeight);
+          
         }
 
     </script>
