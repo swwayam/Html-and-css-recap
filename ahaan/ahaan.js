@@ -144,3 +144,31 @@
    console.log(quotient)
    }
    divide(15, 5)*/
+
+ //Task 10
+ //var array = [];
+ //for(var inputNumber = 0; inputNumber <= 10; inputNumber++){
+  // var input = prompt("Enter any input");
+  // array.push(input)
+ //}
+
+ // for(var i = 0; i < array.length; i++){
+ //   console.log(array[i]);
+// } 
+
+ //Hw
+
+  var array = [];
+ for(var inputNumber = 0; inputNumber <= 5; inputNumber++){
+   var input = prompt("Enter any input");
+   array.push(input)
+ }
+
+ for(var i = 0; i < array.length; i++){
+     console.log(array[i]);
+ }
+ 
+ array.shift()
+ array.shift()
+ array.shift()
+ array.pop();
