@@ -315,6 +315,11 @@
 //   nums[i] = new Number(input);
 // }
 
+
+// for(var i = 0; i < nums.length; i++){
+//     console.log(nums[i]);
+// }
+
 //  var array = [];
 
 // for(var inputNumber = 0; inputNumber <= 10; inputNumber++){
