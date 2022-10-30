@@ -330,3 +330,35 @@
 // for(var i = 0; i < array.length; i++){
 //     console.log(array[i]);
 // }
+
+// var event = {
+//     // object has key value pairs
+//     name: "This is a demo item",
+//     class: 10,
+//     age: 50
+// }
+
+// var event1 = ["This is a demo item from event 1",10, 50];
+
+// console.log(event.age)
+
+var student = {
+    fullName: "Ahan A",
+    grade: "8",
+    age: "14",
+    driver: false,
+    eats: function(){
+        console.log("Ahannn Is Drinking Alcohol")
+    },
+    hobbies: ["Danceing", "BasketBall", "Cricket"]
+}
+
+console.log(student.fullName);
+console.log(student.eats())
+console.log(student.hobbies[1])
+
+
+// Create a object of your name
+// it should have following - 
+// name, grade, age, two functions - isStudying, isPayingAttention in the class 
+// array inside the object - you need to put in three things that you like.
