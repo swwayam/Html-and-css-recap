@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="h1">Enter text below to change me</h1>
+    <input type="text" id="textInput">
+    <button id="submit" onclick="takeInput(event)">Submit</button>
+</body>
+
+<script>
+    var h1 = document.getElementById("h1");
+    var input = document.getelementById("textInput")
+    var btn = document.getElementById("submit")
+    function takeInput(event){
+        event.preventDefault();
+        console.log(input.value)
+       inpt.value = ""
+
+    }
+</script>
+
+</html>
