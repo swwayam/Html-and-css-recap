@@ -342,6 +342,7 @@
 
 // console.log(event.age)
 
+<<<<<<< HEAD
 var student = {
     fullName: "Ahan A",
     grade: "8",
@@ -356,6 +357,22 @@ var student = {
 console.log(student.fullName);
 console.log(student.eats())
 console.log(student.hobbies[1])
+=======
+// var student = {
+//     fullName: "Ahan A",
+//     grade: "8",
+//     age: "14",
+//     driver: false,
+//     eats: function(){
+//         console.log("Ahannn Is Drinking Alcohol")
+//     },
+//     hobbies: ["Danceing", "BasketBall", "Cricket"]
+// }
+
+// console.log(student.fullName);
+// console.log(student.eats())
+// console.log(student.hobbies[1])
+>>>>>>> f33ee0243d2bd5e896244a4c6fc62312a52fd435
 
 
 // Create a object of your name
@@ -367,4 +384,72 @@ console.log(student.hobbies[1])
 // Create a object of your favourite anime character
 // it should have following - 
 // name, name of the show, two it should consisits of 3 functions of sleeping walking and talking and when the function is called it needs alerted. 
+<<<<<<< HEAD
 // array inside the object - you need to put in three things that you like.
+=======
+// array inside the object - you need to put in three things that you like.
+
+// Classes and Objects
+
+// var barbq = {
+//     top: ["panner", "cheez", "extra sauce"],
+//     cost: 10,
+// }
+
+// var barbq1 = {
+//     top: ["panner", "tomato", "extra sauce"],
+//     cost: 10,
+// }
+
+// var barbq2 = {
+//     top: ["chilly", "cheez", "extra sauce"],
+//     cost: 10,
+// }
+
+
+class Pizza{
+    constructor(toppings, drinks, snacks, desert){
+        this.toppings = toppings;
+        this.drinks = drinks;
+        this.snacks = snacks;
+        this.desert = desert;
+    }
+
+    FeedBack(){
+       this.FeedBack = prompt("Did you like our Pizza");
+       this.DisplayFeedBackToTheCompany(this.FeedBack)
+    }
+
+    DisplayFeedBackToTheCompany(CustomerFeedBack){
+        alert(CustomerFeedBack)
+    }
+}
+
+
+var Ahan =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
+var Sohan =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
+var Neha =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
+var Swayam =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
+var sohanIsMilloiner =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
+
+
+// Task 10
+// 1. Create a class of car
+// 2. name,color,company,cost.
+// 3. Speed, Average, playmusic
+// 4. you need to create 3 car objects.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> f33ee0243d2bd5e896244a4c6fc62312a52fd435
