@@ -289,14 +289,65 @@
 
 
  
- for(var name = 0; name <= 5; name = name++){
-   var input = prompt("Enter Name")
-   list.push(input)
-}
+//  for(var name = 0; name <= 5; name = name++){
+//    var input = prompt("Enter Name")
+//    list.push(input)
+// }
  
- name.shift();
- name.shift();
- name.shift();
- name.pop();
+//  name.shift();
+//  name.shift();
+//  name.shift();
+//  name.pop();
   
- console.log(name);
+//  console.log(name);
+
+// var student = {
+//   fullName: "Sohan A",
+//   grade: "7",
+//   age: "12",
+//   driver: true,
+//   eats: function(){
+//       console.log("Ahannn Is Earing Pizza")
+//   },
+//   hobbies: ["Soccer", "BasketBall", "Coding"]
+// }
+
+// console.log(student.fullName);
+// console.log(student.eats())
+// console.log(student.hobbies[1])
+
+
+// Task 2
+// Create a object of your favourite anime character
+// it should have following - 
+// name, name of the show, two it should consisits of 3 functions of sleeping walking and talking and when the function is called it needs alerted. 
+// array inside the object - you need to put in three things that you like.
+
+// var FavFood = {
+//   FoodName: "Pizza",
+//   resturant: "Domino's" ,
+//   Main: "Memphis BBQ Pizza",
+//   Toppings: "Hot sauce",
+//   talking: function(){
+//    alert("Yes, your pizza is currently talking.")
+// },
+// walking: function(){
+//   console.log("No, your pizza is currently not walking.")
+// },
+// sleeping: function(){
+//   console.log("No, obviously how can it sleep and talk.")
+// },
+//   likes: ["talking", "being in the oven", "not being eaten"]
+// }
+
+// console.log(student.FoodName);
+// console.log(student.talking());
+// console.log(student.walking());
+// console.log(student.sleepinging());
+// console.log(student.likes[1]);
+
+// Task 10
+// 1. Create a class of car
+// 2. name,color,company,cost.
+// 3. Speed, Average, playmusic
+// 4. you need to create 3 car objects.
