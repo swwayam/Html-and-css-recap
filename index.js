@@ -342,22 +342,6 @@
 
 // console.log(event.age)
 
-<<<<<<< HEAD
-var student = {
-    fullName: "Ahan A",
-    grade: "8",
-    age: "14",
-    driver: false,
-    eats: function(){
-        console.log("Ahannn Is Drinking Alcohol")
-    },
-    hobbies: ["Danceing", "BasketBall", "Cricket"]
-}
-
-console.log(student.fullName);
-console.log(student.eats())
-console.log(student.hobbies[1])
-=======
 // var student = {
 //     fullName: "Ahan A",
 //     grade: "8",
@@ -372,7 +356,6 @@ console.log(student.hobbies[1])
 // console.log(student.fullName);
 // console.log(student.eats())
 // console.log(student.hobbies[1])
->>>>>>> f33ee0243d2bd5e896244a4c6fc62312a52fd435
 
 
 // Create a object of your name
