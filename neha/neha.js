@@ -172,33 +172,57 @@
 // 3. Remove the first three values from the array.
 // 4. Remove the last one value from the array.
 
-var input1 = prompt("input")
-var input2 = prompt("input")
-var input3 = prompt("input")
-var input4 = prompt("input")
-var input5 = prompt("input")
+// var input1 = prompt("input")
+// var input2 = prompt("input")
+// var input3 = prompt("input")
+// var input4 = prompt("input")
+// var input5 = prompt("input")
 
 
- console.log(inputs[1]);
- console.log(inputs[2]);
- console.log(inputs[3]);
- console.log(inputs[4]);
- console.log(inputs[5]);
+//  console.log(inputs[1]);
+//  console.log(inputs[2]);
+//  console.log(inputs[3]);
+//  console.log(inputs[4]);
+//  console.log(inputs[5]);
 
-inputs.push(input1);
-inputs.push(input2);
-inputs.push(input3);
-inputs.push(input4);
-inputs.push(input5);
+// inputs.push(input1);
+// inputs.push(input2);
+// inputs.push(input3);
+// inputs.push(input4);
+// inputs.push(input5);
 
-var inputs = [1,2,3];
-inputs.pop();
-console.log(inputs);
+// var inputs = [1,2,3];
+// inputs.pop();
+// console.log(inputs);
 
-for(var inputNumber = 0; inputNumber <= 10; inputNumber++){
-  var input = prompt("enter input");
-}
-array.push(input)
-for(var i = 0; i < array.length; i++){
-  console.log(array[i]);
-}
+// for(var inputNumber = 0; inputNumber <= 10; inputNumber++){
+//   var input = prompt("enter input");
+// }
+// array.push(input)
+// for(var i = 0; i < array.length; i++){
+//   console.log(array[i]);
+// }
+
+// var robin ={
+//   fullname: "nico robin",
+//   show:  "One Piece",
+ 
+//  isSleeping: function{
+//   alert("yes")},
+
+//   isWalking: function{
+//   alert("yes")},
+
+
+//   isTalking: function{
+//   alert("yes")},
+
+// likes: ["sleeping", "tv", "running"]
+// }
+
+// console.log(robin.fullname);
+// console.log(robin.isSleeping())
+// console.log(robin.isWalking())
+// console.log(robin.isTalking())
+// console.log(robin.likes[1])
+
