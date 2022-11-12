@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        form {
+            padding-left: 550px;
+            padding-top: 250px;
+        }
+
+        button {
+            background-color: rgb(139, 83, 190);
+            width: 150px;
+            border-radius: 25px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        Email <br>
+        <input type="text" id="a1" placeholder="example@email.com" required>
+        <br>
+        <br>
+        <br>
+        <br>
+        Username <br>
+        <input type="text" id="a2" placeholder="username" required>
+        <br>
+        <br>
+        <br>
+        <br>
+        Password <br>
+        <input type="text" id="a3" placeholder="passowrd" required>
+        <br>
+        <br>
+        <button onclick="Print(event)">Sign In</button>
+    </form>
+    <script>
+        function Print(event) {
+            event.preventDefault()
+            var a1 = document.getElementById("a1");
+            console.log(a1.value)
+            document.getElementById("a1").value = ""
+            var a2 = document.getElementById("a2");
+            console.log(a2.value)
+            document.getElementById("a2").value = ""
+            var a3 = document.getElementById("a3");
+            console.log(a3.value)
+            document.getElementById("a3").value = ""
+        }
+        var email = [input1]
+                    for(var input1 = a1.value; input1++;){
+                 if(input1[char] -= "@"){
+                   email.pop()
+                    alert("The email provided is not acceptable")
+                 }
+            }
+ 
+
+
+    
+    </script>
+</body>
+
+</html>
