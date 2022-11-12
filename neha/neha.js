@@ -226,3 +226,37 @@
 // console.log(robin.isTalking())
 // console.log(robin.likes[1])
 
+
+class car{
+    constructor(name, company, color, cost, speed, average, music){
+        this.name = name;
+        this.company = company;
+      
+        this.color = color;
+        this.cost = cost;
+        this.company = speed;
+      
+        this.color = average;
+        this.cost = music;
+}
+speed(){
+    alert(this.speed)
+}
+
+average(){
+   alert(this.average)
+}
+
+music(){
+   alert(this.music)
+}
+}
+
+var car1 = cars(["audir8", "audi", "black", "170,000" ])
+var car2 = cars(["audir8", "audi", "black", "170,000" ])
+var car3 = cars(["audir8", "audi", "black", "170,000" ])
+
+car1.
+
+
+
