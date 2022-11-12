@@ -367,9 +367,6 @@
 // Create a object of your favourite anime character
 // it should have following - 
 // name, name of the show, two it should consisits of 3 functions of sleeping walking and talking and when the function is called it needs alerted. 
-<<<<<<< HEAD
-// array inside the object - you need to put in three things that you like.
-=======
 // array inside the object - you need to put in three things that you like.
 
 // Classes and Objects
@@ -428,11 +425,3 @@ var sohanIsMilloiner =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", 
 
 
 
-
-
-
-
-
-
-
->>>>>>> f33ee0243d2bd5e896244a4c6fc62312a52fd435

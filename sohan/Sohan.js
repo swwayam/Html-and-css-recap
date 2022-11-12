@@ -351,3 +351,46 @@
 // 2. name,color,company,cost.
 // 3. Speed, Average, playmusic
 // 4. you need to create 3 car objects.
+
+class Car{
+    constructor(name,color,company,cost){
+        this.name = name;
+        this.color = color;
+        this.company = company;
+        this.cost = cost;
+        this.speed = speed;
+        this.music = music;
+        this.average = average;
+    }
+
+    Speed(){
+    alert(this.speed);
+}
+
+Average(){
+    alert(this.average);
+}
+
+    Music(){
+    alert(this.music);
+}
+
+    
+
+}
+ 
+
+    var one = new Car("monkey","green","monkey co","100000000");
+    var two =  new Car("monkey","yellow","monkey co","100000000");
+    var three = new Car("monkey","blue","monkey co","100000000");
+
+    one.average()  
+    two.average()
+    three.average()
+    one.speed()  
+    two.speed()
+    three.speed()
+    one.music()  
+    two.music()
+    three.music()
+      
