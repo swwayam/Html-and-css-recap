@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+form{
+        width: 300px;
+        margin: 200px auto;
+    
+        padding: 15px;
+    }
+
+    input{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #btn{
+        background-color: rgb(159, 130, 179);
+        font-size: 14px;
+        padding: 5px 10px;
+        border: 0;
+        height: 30px;
+        width: 150px;
+    }
+
+    </style>
+</head>
+<body>
+    <form>
+        <label for="Username">Username</label>
+        <br>
+        <input type="text" id="user" placeholder="username">
+        <br>
+        <br>
+        <label for="Email">Email</label>
+        <br>
+        
+        <input type="text" id="email" placeholder="email">
+        <br>
+        <br>
+        <label for="Password">Password</label>
+    
+        <br>
+        <input type="text" id="password"placeholder="password" >
+        <br>
+        <br>
+        <button onclick="takeInputAndShowResult(event)" id="btn">Sign Up</button>
+    </form>
+<script>
+      var username = document.getElementById("user");
+      
+        var email = document.getElementById("email");
+        var password = document.getElementById("password");
+        var button = document.getElementById("btn")
+
+        function takeInputAndShowResult(event){
+            event.preventDefault()
+            var userUsername = username.value;
+            var userEmail = email.value;
+            var userPassword = password.value;
+            console.log(userUsername);
+            console.log(userEmail);
+            console.log(userPassword);
+           
+              document.getElementById("username").value=""
+              document.getElementById("email").value=""
+              document.getElementById("password").value=""
+            
+            }
+        
+            
+</script>
+</body>
+</html>
