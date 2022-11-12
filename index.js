@@ -1,8 +1,8 @@
 // //console.log("Hello World!")
 
-// var num = 1                    // Interger Data Type
-// var num = 1.5                  // Float Data Type
-// var name = "Good Morning"     // String Data Type
+// var num = 1                      // Interger Data Type
+// var num = 1.5                   // Float Data Type
+// var name = "Good Morning"      // String Data Type
 // var bool = true or false      // Boolean Data Type
 
 // // var number = 50;
@@ -387,31 +387,62 @@
 // }
 
 
-class Pizza{
-    constructor(toppings, drinks, snacks, desert){
-        this.toppings = toppings;
-        this.drinks = drinks;
-        this.snacks = snacks;
-        this.desert = desert;
-    }
+// class Pizza{
+//     constructor(toppings, drinks, snacks, desert, speed){
+//         this.toppings = toppings;
+//         this.drinks = drinks;
+//         this.snacks = snacks;
+//         this.desert = desert;
+//         this.speed = speed;
+//     }
 
-    FeedBack(){
-       this.FeedBack = prompt("Did you like our Pizza");
-       this.DisplayFeedBackToTheCompany(this.FeedBack)
-    }
+//     FeedBack(){
+//        this.FeedBack = prompt("Did you like our Pizza");
+//        this.DisplayFeedBackToTheCompany(this.FeedBack)
+//     }
 
-    DisplayFeedBackToTheCompany(CustomerFeedBack){
-        alert(CustomerFeedBack)
-    }
-}
+//     speedOfTheChef(){
+//         alert(this.speed)
+//     }
+
+//     DisplayFeedBackToTheCompany(CustomerFeedBack){
+//         alert(CustomerFeedBack)
+//     }
+// }
 
 
-var Ahan =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
-var Sohan =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
-var Neha =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
-var Swayam =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
-var sohanIsMilloiner =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
+// var Ahan =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
+// var Sohan =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
+// var Neha =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
+// var Swayam =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
+// var sohanIsMilloiner =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
 
+
+// Ahan.FeedBack()
+// Sohan.FeedBack()
+
+
+// class Students{
+//     constructor(name,rollNo,address,math,science,history){
+//         this.name = name;
+//         this.rollNo = rollNo;
+//         this.address = address;
+//         this.math = math;
+//         this.science = science;
+//         this.history = history;
+//     }
+
+//     average(){
+//         var avg = ( this.math + this.science + this.history ) / 3
+//         console.log(this.name + " has an average of " + avg);
+//     }
+
+// }
+
+// var student1 = new Students("Ahen",1,"Canada",13,17,20);
+
+
+// student1.average();
 
 // Task 10
 // 1. Create a class of car
@@ -425,3 +456,16 @@ var sohanIsMilloiner =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", 
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+>>>>>>> f33ee0243d2bd5e896244a4c6fc62312a52fd435
+
+
+>>>>>>> cc9f4fc56c57c24f7fede9957efd359d04a7b03d
