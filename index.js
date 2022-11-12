@@ -449,23 +449,3 @@
 // 2. name,color,company,cost.
 // 3. Speed, Average, playmusic
 // 4. you need to create 3 car objects.
-
-
-
-
-
-
-
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
->>>>>>> f33ee0243d2bd5e896244a4c6fc62312a52fd435
-
-
->>>>>>> cc9f4fc56c57c24f7fede9957efd359d04a7b03d
