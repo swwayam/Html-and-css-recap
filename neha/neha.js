@@ -227,36 +227,54 @@
 // console.log(robin.likes[1])
 
 
-class car{
-    constructor(name, company, color, cost, speed, average, music){
-        this.name = name;
-        this.company = company;
+// class car{
+//     constructor(name, company, color, cost, speed, average, music){
+//         this.name = name;
+//         this.company = company;
       
-        this.color = color;
-        this.cost = cost;
-        this.company = speed;
+//         this.color = color;
+//         this.cost = cost;
+//         this.company = speed;
       
-        this.color = average;
-        this.cost = music;
-}
-speed(){
-    alert(this.speed)
-}
+//         this.color = average;
+//         this.cost = music;
+// }
+// speed(){
+//     alert(this.speed)
+// }
 
-average(){
-   alert(this.average)
-}
+// average(){
+//    alert(this.average)
+// }
 
-music(){
-   alert(this.music)
-}
-}
+// music(){
+//    alert(this.music)
+// }
+// }
 
-var car1 = cars(["audir8", "audi", "black", "170,000" ])
-var car2 = cars(["audir8", "audi", "black", "170,000" ])
-var car3 = cars(["audir8", "audi", "black", "170,000" ])
+// var car1 = cars(["audir8", "audi", "black", "170,000" ])
+// var car2 = cars(["audir8", "audi", "black", "170,000" ])
+// var car3 = cars(["audir8", "audi", "black", "170,000" ])
 
-car1.
+// car1.
+
+var date = new Date();
+
+console.log(date)
+
+var a = new Date();
+console.log(a.toUTCString())
+
+var utc = new Date();
+console.log(utc.getHours())
 
 
+var b = new Date();
+console.log(b.getMilliseconds())
 
+var c = new Date();
+c.getMilliseconds();
+console.log(c.getMilliseconds())
+
+var d = new Date();
+console.log(d.getFullYear())
