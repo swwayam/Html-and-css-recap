@@ -158,17 +158,54 @@
 
  //Hw
 
-  var array = [];
- for(var inputNumber = 0; inputNumber <= 5; inputNumber++){
-   var input = prompt("Enter any input");
-   array.push(input)
- }
+  //var array = [];
+ //for(var inputNumber = 0; inputNumber <= 5; inputNumber++){
+   //var input = prompt("Enter any input");
+   //array.push(input)
+ //}
 
- for(var i = 0; i < array.length; i++){
-     console.log(array[i]);
- }
+ //for(var i = 0; i < array.length; i++){
+    // console.log(array[i]);
+ //}
  
- array.shift()
- array.shift()
- array.shift()
- array.pop();
+ //array.shift()
+ //array.shift()
+ //array.shift()
+ //array.pop();
+
+// Task 10
+// 1. Create a class of car
+// 2. name,color,company,cost.
+// 3. Speed, Average, playmusic
+// 4. you need to create 3 car objects.
+  class car{
+    constructor(name, colour, company, cost, speed, average, music){
+        this.name = name;
+        this.colour = colour;
+        this.company = company;
+        this.cost = cost;
+        this.speed = speed;
+        this.average = average;
+        this.music = music;
+    }
+
+    speed(){
+      alert(this.speed)
+    }
+    average(){
+      alert(this.average)
+    }
+    music(){
+      alert(this.music)
+    }
+  }
+
+
+  
+  var car1 =  new car("ford1520987", "black", "ford", "$2507893", "148970km/h", "-905423km", "yes")
+  var car2 =  new car("toyota43895-0", "red", "toyota", "$2689403", "548902km/h", "35643564km", "no")
+  var car3 =  new car("nissan159870", "blue", "nissan", "$19027583", "452324352km/h", "24378590km", "depends")
+
+  car1.speed()
+  car3.average()
+  car2.music()
