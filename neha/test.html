@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+            width: 300px;
+            margin: 200px auto;
+        
+            padding: 15px;
+        }
+    
+        input{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    
+        #button{
+            background-color: rgb(159, 130, 179);
+            font-size: 14px;
+            padding: 5px 10px;
+            border: 0;
+            height: 30px;
+            width: 150px;
+        }
+
+        .random{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(211, 127, 250);
+}
+
+.content{
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+       </style>
+<body>
+   <div class = "random">
+        <div class="content">
+            <h3 id="randomNum">Your number is = <span id="num"></span></h3>
+            <br>
+            
+          
+           
+            <button id="btn" onclick="generateNumber()">Generate random number</button>
+        </div>
+    </div>
+    <script src="test.js"></script>
+    <form>
+        <label for="name">Name</label>
+        <br>
+        <input type="text" id="name" placeholder="name">
+        <br>
+        <br>
+        <label for="card">Card Number</label>
+        <br>
+        
+        <input type="text" id="cardno" placeholder="input card number">
+        <br>
+        <br>
+        <label for="pin">Pin</label>
+    
+        <br>
+        <input type="text" id="pin"placeholder="input pin number" >
+        <br>
+        <br>
+        <label for="phone">Mobile Number</label>
+        <br>
+        <input type="text" id="phone" placeholder="input mobile number">
+        <br>
+        <br>
+
+        <button onclick="" id="button">Submit</button>
+    </form>
+
+</body>
+</html>
