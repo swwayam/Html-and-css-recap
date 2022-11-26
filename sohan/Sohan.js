@@ -351,3 +351,66 @@
 // 2. name,color,company,cost.
 // 3. Speed, Average, playmusic
 // 4. you need to create 3 car objects.
+
+// class Car{
+//     constructor(name,color,company,cost){
+//         this.name = name;
+//         this.color = color;
+//         this.company = company;
+//         this.cost = cost;
+//         this.speed = speed;
+//         this.music = music;
+//         this.average = average;
+//     }
+
+//     Speed(){
+//     alert(this.speed);
+// }
+
+// Average(){
+//     alert(this.average);
+// }
+
+//     Music(){
+//     alert(this.music);
+// }
+
+    
+
+// }
+ 
+
+//     var one = new Car("monkey","green","monkey co","100000000");
+//     var two =  new Car("monkey","yellow","monkey co","100000000");
+//     var three = new Car("monkey","blue","monkey co","100000000");
+
+//     one.average()  
+//     two.average()
+//     three.average()
+//     one.speed()  
+//     two.speed()
+//     three.speed()
+//     one.music()  
+//     two.music()
+//     three.music()
+      
+
+    // Task 11
+// 1. log todays date.
+// 2. log the number of hours
+// 3. log the UTC date 
+// 4. log the milliseconds 
+// 5. check out .getMilliseconds method
+
+var date1 =  new Date()
+console.log(date1)
+var a = new Date()
+console.log(a.toUTCString)
+var b = new Date()
+b.getHours()
+console.log(b.getMilliseconds)
+var c = new Date()
+c.getMilliseconds
+console.log(c.getMilliseconds)
+
+
