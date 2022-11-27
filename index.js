@@ -370,6 +370,8 @@
 
 // array inside the object - you need to put in three things that you like.
 
+// array inside the object - you need to put in three things that you like.
+
 // Classes and Objects
 
 // var barbq = {
@@ -451,47 +453,10 @@
 // 3. Speed, Average, playmusic
 // 4. you need to create 3 car objects.
 
-// Two new loops forEach and forOf loop
-
-var arr = ["porsche", "bugatti", "jaguar", "Audi", "BMW", "Toyota", "lamborgini", "Lexus", "Mercedes"];
-
-// Traditional loops
-
-for(var i = 0; i < arr.length; i++){
-    console.log(arr[i]);
-}
-
-var arr1 = [1,2,30,4,55,6,70,8,1];
-
-for(var i = 1; i < arr1.length; i++){
-    console.log(arr1[i] + 2);
-}
 
 
-// Arrays
-var arr2 = ["table", "fan"];
 
-arr2.push("Charger");
 
-console.log(arr2)
-
-arr2.shift();
-
-arr2.unshift("car");
-
-console.log(arr2);
-
-// Strings 
-var name = "sOhan";
-console.log(name.toUpperCase())
-
-var name1 = "neha";
-console.log(name1.toLowerCase())
-
-console.log(name.charAt(1).toLowerCase())
-
-// Task 11
-// 1. Check if a person is elidgible for a driving lisense take the age from the person in an html input field
 
 
 // Traditional Loops
