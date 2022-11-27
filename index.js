@@ -494,6 +494,37 @@ console.log(name.charAt(1).toLowerCase())
 // 1. Check if a person is elidgible for a driving lisense take the age from the person in an html input field
 
 
+// Traditional Loops
+var names = ["ahen","sohan","neha","swayam"];
+
+// for(var anything = 0; anything < arr2.length; anything++){
+//     console.log(arr2[anything]);
+// }
+
+// For of loop
+// for(var name of names){
+//     console.log(name);
+// }
+
+var nums = [3,2342,54,656,345,23,4,5,234]
+// for(var superman of nums){
+//     console.log(superman + 4);
+// }
+
+// Foreach loop
+names.forEach(function(element, index){
+    console.log(element + " is at " + index)
+})
+
+
+// Task 12
+// Read about foreach
+// Using for of loop iterate through the array and log it to the console
+// Using for each loop iterate throught the array and log it to the console
+// using for each loop itereate thorugh the array and log the element as well as the index of the array.
+// use a numbers array using for each loop iterate through the array and log the element as well as the index of the array and also incerement the element by its index
+
+
 
 
 
