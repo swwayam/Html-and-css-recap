@@ -97,7 +97,7 @@
 
 // String Methods
 
-// Strings are immutable in javascript 
+// Strings are immutable in javascript
 
 // var name = "Ahhan";
 // console.log(name);
@@ -114,21 +114,19 @@
 // methods = name.length;
 // console.log(methods);
 
-
 // returns the charater at the given index
 // methods = name.charAt(1);
 // console.log(methods);
 
-// TO change a number to a string 
+// TO change a number to a string
 // var int = 265;
 // methods = int.toString();
 // console.log(methods);
 
-// Ahen Wins here (The Pro) 
+// Ahen Wins here (The Pro)
 // console.log(5 + methods); // 5 + "265"
 
-
-// Task 6 
+// Task 6
 
 // Do the following
 // 1. Take Input from the user
@@ -146,19 +144,14 @@
 //     lineNumber++;
 // }
 
-
-
-// For Loop 
+// For Loop
 // for (var lineNumber = 4; lineNumber < 101; lineNumber++) {
 //     console.log(lineNumber);
 // }
 
-
 // Task 7
-// We have printed numbers form 1-100 now 
+// We have printed numbers form 1-100 now
 //you guys need to print the number in following series - 0 2 4 6 .....
-
-
 
 // var name = "Shohahn"
 
@@ -168,10 +161,9 @@
 //     }
 // }
 
-
 // Task 8
-// Take input from the user and check if the input contains 1 if the 
-//input contains 1 log to console the input constains 
+// Take input from the user and check if the input contains 1 if the
+//input contains 1 log to console the input constains
 //1 else alert there is no number.
 
 // IF Else Statements 9-30-2022 EST
@@ -185,7 +177,6 @@
 // charmender();
 // charmender();
 // charmender();
-
 
 // function add(num1,num2){
 //     var sum = num1 + num2;
@@ -201,13 +192,11 @@
 // Task 9
 // You need to create 4 functions add(), sub(), multiply(), Divide()
 
-
 // Arrays
 
 // var name = "Ahan"
 // var name1 = "Sohan"
 // var name3 = "Neha"
-
 
 //var student = ["Ahan", "Sohan", "Neha", "Ceo of codingzen"];
 
@@ -240,12 +229,12 @@
 //     console.log(student[i]);
 // }
 
-// Task 10 
+// Task 10
 // 1. You need to take 10 input from the user.
-// 2. Store in the array 
+// 2. Store in the array
 // 3. To log the whole array in the console.
 
-// Solution 1 - 
+// Solution 1 -
 
 // var inputs = []
 
@@ -282,7 +271,7 @@
 // console.log(inputs[8]);
 // console.log(inputs[9]);
 
-// Solution 2 - 
+// Solution 2 -
 // var inputs = [];
 
 // for(var i = 0; i < 10; i++){
@@ -293,7 +282,6 @@
 // for(var i = 0; i < inputs.length; i++){
 //          console.log(inputs[i]);
 //  }
-
 
 // for(var inputNumber = 0; inputNumber <= 10; inputNumber++){
 //     var input = prompt("Enter any input");
@@ -314,7 +302,6 @@
 //   // place value (as a number) into the array
 //   nums[i] = new Number(input);
 // }
-
 
 // for(var i = 0; i < nums.length; i++){
 //     console.log(nums[i]);
@@ -357,16 +344,15 @@
 // console.log(student.eats())
 // console.log(student.hobbies[1])
 
-
 // Create a object of your name
-// it should have following - 
-// name, grade, age, two functions - isStudying, isPayingAttention in the class 
+// it should have following -
+// name, grade, age, two functions - isStudying, isPayingAttention in the class
 // array inside the object - you need to put in three things that you like.
 
 // Task 2
 // Create a object of your favourite anime character
-// it should have following - 
-// name, name of the show, two it should consisits of 3 functions of sleeping walking and talking and when the function is called it needs alerted. 
+// it should have following -
+// name, name of the show, two it should consisits of 3 functions of sleeping walking and talking and when the function is called it needs alerted.
 
 // array inside the object - you need to put in three things that you like.
 
@@ -388,7 +374,6 @@
 //     top: ["chilly", "cheez", "extra sauce"],
 //     cost: 10,
 // }
-
 
 // class Pizza{
 //     constructor(toppings, drinks, snacks, desert, speed){
@@ -413,17 +398,14 @@
 //     }
 // }
 
-
 // var Ahan =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
 // var Sohan =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
 // var Neha =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
 // var Swayam =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
 // var sohanIsMilloiner =  new Pizza(["cheez","chilly", "vegies"], "coke", "none", "ice-cream-cake")
 
-
 // Ahan.FeedBack()
 // Sohan.FeedBack()
-
 
 // class Students{
 //     constructor(name,rollNo,address,math,science,history){
@@ -444,7 +426,6 @@
 
 // var student1 = new Students("Ahen",1,"Canada",13,17,20);
 
-
 // student1.average();
 
 // Task 10
@@ -453,18 +434,120 @@
 // 3. Speed, Average, playmusic
 // 4. you need to create 3 car objects.
 
+// Traditional Loops
+//var names = ["ahen","sohan","neha","swayam"];
+
+// for(var anything = 0; anything < arr2.length; anything++){
+//     console.log(arr2[anything]);
+// }
+
+// For of loop
+// for(var name of names){
+//     console.log(name);
+// }
+
+// var nums = [3,2342,54,656,345,23,4,5,234]
+// // for(var superman of nums){
+// //     console.log(superman + 4);
+// // }
+
+// // Foreach loop
+// names.forEach(function(element, index){
+//     console.log(element + " is at " + index)
+// })
+
+// Task 12
+// Read about foreach
+// Using for of loop iterate through the array and log it to the console
+// Using for each loop iterate throught the array and log it to the console
+// using for each loop itereate thorugh the array and log the element as well as the index of the array.
+// use a numbers array using for each loop iterate through the array and log the element as well as the index of the array and also incerement the element by its index
+
+// Practice Session - PS 1
+// 1. Calculate the users age using his birth year Write a function to tell the age of a person. Find out current year also take an input of the birth year using prompt.
+
+// var year = prompt("Enter your birth year")
+// var date = new Date();
+
+// console.log(date);
+
+// The output - Tue Nov 29 2022 05:42:20 GMT+0530 (India Standard Time)
+
+// function calculateAge(){
+//    console.log(date.getFullYear() - parseInt(year))
+// }
+
+// calculateAge()
+
+// PS - 2
+// 2. Write a function, which adds two numbers.
+// 3. Using the same function i need to add the following.
+// Example - 0, 1 | 1,2 | 2,3
+
+// var num1 = 0;
+// var num2 = 1;
+// for (i = 0; i < 100; i++) {
+//   console.log(num1 + num2);
+//   num1 = num1 + 1;
+//   num2 = num2 + 1;
+// }
+
+// function add(num1, num2){ 
+//   var sum = num1 + num2;
+//   console.log(sum);
+// }
+
+// for (i = 0; i < 100; i++) {
+//   add(i , i + 1);
+// }
+
+
+// var age = 15
+
+// if(age >= 16){
+//     alert("Your are elidgible for the liscence")
+// }else{
+//     alert("You are not elidgible for the liscnce")
+// }
+
+// Comparision Operators -
+
+/*
+                Answer 
+&&  true true   true
+&&  true false  false
+
+||  true true   true
+||  true false  true
+||  false false false
+
+!true = false
+!false = true  
+
+*/
+
+
+var num1 = 12;
+var num2 = 6;
+
+if(num1 > 10 || num2 < 10 ){
+    console.log("Hi this is num1 and num2");
+}else{
+    console.log("Num1 faliled and Num2 was an disappointment")
+}
+
+
+if(!num1 > 10){
+    console.log("Hi this is num1 and num2");
+}else{
+    console.log("Num1 faliled and Num2 was an disappointment")
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+// Task 13
+// 1. a persons age is 20 years old you need to see if he is elidgible for marriage
+// 2. there are two brothers sohan and ahhan wiith their teacher neha now miss neha tells both of them that if one of the brother fails she's gonna give zero to both of them. Write a condition to check this. sohan scored 20 ahhan scored 3.
+// 3. there is a river which has a water level of 10 meter if the water stays below 20 meter the city is safe if it goes to 15 meter the city is in medium danger and if it dosent go 17 meters everyone is safe.
+// 4. Neha mam has changed a bit and she told both ahan and sohan that if one of them passes the test she will she won't complain to the parents. 
 
