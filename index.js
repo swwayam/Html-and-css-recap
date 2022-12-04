@@ -544,11 +544,11 @@
 // }
 
 
+
 // Task 13
 // 1. a persons age is 20 years old you need to see if he is elidgible for marriage
 // 2. there are two brothers sohan and ahhan wiith their teacher neha now miss neha tells both of them that if one of the brother fails she's gonna give zero to both of them. Write a condition to check this. sohan scored 20 ahhan scored 3.
 // 3. there is a river which has a water level of 10 meter if the water stays below 20 meter the city is safe if it goes to 15 meter the city is in medium danger and if it dosent go 17 meters everyone is safe.
-// 4. Neha mam has changed a bit and she told both ahan and sohan that if one of them passes the test she will she won't complain to the parents. 
 
 // if (num1 > 10) {
 //     console.log("Hi i am an if case")
@@ -592,3 +592,6 @@ switch(grades){
 }
 
 // Using switch case you need to check if a student's percent is good or avg if the value is > 75 excellent less than 75 avg.
+
+
+// 4. Neha mam has changed a bit and she told both ahan and sohan that if one of them passes the test she will she won't complain to the parents. 
