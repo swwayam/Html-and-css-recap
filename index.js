@@ -527,21 +527,21 @@
 */
 
 
-var num1 = 12;
-var num2 = 6;
+// var num1 = 12;
+// var num2 = 6;
 
-if(num1 > 10 || num2 < 10 ){
-    console.log("Hi this is num1 and num2");
-}else{
-    console.log("Num1 faliled and Num2 was an disappointment")
-}
+// if(num1 > 10 || num2 < 10 ){
+//     console.log("Hi this is num1 and num2");
+// }else{
+//     console.log("Num1 faliled and Num2 was an disappointment")
+// }
 
 
-if(!num1 > 10){
-    console.log("Hi this is num1 and num2");
-}else{
-    console.log("Num1 faliled and Num2 was an disappointment")
-}
+// if(!num1 > 10){
+//     console.log("Hi this is num1 and num2");
+// }else{
+//     console.log("Num1 faliled and Num2 was an disappointment")
+// }
 
 
 // Task 13
@@ -549,3 +549,46 @@ if(!num1 > 10){
 // 2. there are two brothers sohan and ahhan wiith their teacher neha now miss neha tells both of them that if one of the brother fails she's gonna give zero to both of them. Write a condition to check this. sohan scored 20 ahhan scored 3.
 // 3. there is a river which has a water level of 10 meter if the water stays below 20 meter the city is safe if it goes to 15 meter the city is in medium danger and if it dosent go 17 meters everyone is safe.
 // 4. Neha mam has changed a bit and she told both ahan and sohan that if one of them passes the test she will she won't complain to the parents. 
+
+// if (num1 > 10) {
+//     console.log("Hi i am an if case")
+// }else if(num1 > 8){
+//     console.log("Num1 is greater than 6")
+// }else if(num1 > 6){
+//     console.log("Num1 is greater than 6")
+// }else if(num1 > 4){
+//     console.log("Num1 is greater than 6")
+// }else if(num1 > 2){
+//     console.log("Num1 is greater than 6")
+// }else{
+//     console.log("Hi I am an else case")
+// }
+
+
+// Teranary operator / conditional statament
+// var num4 = 20;
+
+// num4 > 30 ? console.log("It is less") : console.log("it is more");
+
+// Switch Case
+var grades = prompt("Enter your grades ex- A, A+, F+");
+
+// 1. if the grades are a,aa,b,bb the student is excellent c,cc the student is average if the grades are f,ff then the student should be kicked of the school.
+
+// Switch Case
+
+switch(grades){
+    case 'A':
+        console.log("Stud is exe");
+        break;
+    case 'B':
+        console.log("Stud is avg");
+        break;
+    case 'C':
+        console.log("Stud iis okay");
+        break;
+    default:
+        console.log("THe student is kicked")
+}
+
+// Using switch case you need to check if a student's percent is good or avg if the value is > 75 excellent less than 75 avg.
