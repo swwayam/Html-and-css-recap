@@ -503,4 +503,3 @@ console.log(name.charAt(1).toLowerCase())
 
 
 
-

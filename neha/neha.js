@@ -258,23 +258,72 @@
 
 // car1.
 
-var date = new Date();
+// var date = new Date();
 
-console.log(date)
+// console.log(date)
 
-var a = new Date();
-console.log(a.toUTCString())
+// var a = new Date();
+// console.log(a.toUTCString())
 
-var utc = new Date();
-console.log(utc.getHours())
+// var utc = new Date();
+// console.log(utc.getHours())
 
 
-var b = new Date();
-console.log(b.getMilliseconds())
+// var b = new Date();
+// console.log(b.getMilliseconds())
 
-var c = new Date();
-c.getMilliseconds();
-console.log(c.getMilliseconds())
+// var c = new Date();
+// c.getMilliseconds();
+// console.log(c.getMilliseconds())
 
-var d = new Date();
-console.log(d.getFullYear())
+// var d = new Date();
+// console.log(d.getFullYear())
+
+
+
+// var age = document.getElementById("age");
+
+// function takeInputAndShowResult(event){
+//     event.preventDefault()}
+
+
+
+//  if(input > 16 ){
+//  console.log("person is eligible for a driver's license")
+//  }
+// else{
+//     console.log("person is not eligible for a driver's license")
+// }
+
+// var fruits = ["cherry", "strawberry" , "blackberry"];
+
+// for(var fruit of fruits){
+//     console.log(fruit);
+// }
+
+// fruits.forEach(function(fruit){
+// console.log(fruits)
+// })
+
+// fruits.forEach(function(element, index){
+
+//     console.log(element + "is on" + index);
+// })
+
+// var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// numbers.forEach(function(element, index){
+
+//     console.log(element + index);
+// })
+
+// function calculateAge(){
+
+// }
+
+// var year = new Date();
+// console.log(date);
+
+// var birthyear = prompt("What's your birth year? ")
+
+
