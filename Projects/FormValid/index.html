@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<script>
+    var username,name,password;
+
+    function isInputThere(event){
+        event.preventDefault();
+
+        username = document.getElementById("userName").value
+        name = document.getElementById("uName").value
+        password = document.getElementById("pass").value
+     
+        console.log(name);
+        if(username == "" || username == null ){
+            alert("User Name Cannot Be Empty");
+        }else if(name == "" || name == null){
+            alert("Name Cannot Be Empty");
+        }else if(password == "" || password == null ){
+            alert("Password Cannot Be Empty");
+        }else{
+            alert("Loginn success")
+            
+        }
+
+    }
+</script>
+<body>
+    <form>
+        <label for="userName">User Name</label>
+        <input type="text" id="userName" class="inp">
+        <label for="uName">Name</label>
+        <input type="text" id="uName" class="inp">
+        <label for="Password">Password</label>
+        <input type="password" id="pass" class="inp">
+
+        <button onclick="isInputThere(event)">Submit</button>
+    </form>
+</body>
+</html>

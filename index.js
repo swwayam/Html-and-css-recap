@@ -571,27 +571,79 @@
 // num4 > 30 ? console.log("It is less") : console.log("it is more");
 
 // Switch Case
-var grades = prompt("Enter your grades ex- A, A+, F+");
+//var grades = prompt("Enter your grades ex- A, A+, F+");
 
 // 1. if the grades are a,aa,b,bb the student is excellent c,cc the student is average if the grades are f,ff then the student should be kicked of the school.
 
 // Switch Case
 
-switch(grades){
-    case 'A':
-        console.log("Stud is exe");
-        break;
-    case 'B':
-        console.log("Stud is avg");
-        break;
-    case 'C':
-        console.log("Stud iis okay");
-        break;
-    default:
-        console.log("THe student is kicked")
-}
+// switch(grades){
+//     case 'A':
+//         console.log("Stud is exe");
+//         break;
+//     case 'B':
+//         console.log("Stud is avg");
+//         break;
+//     case 'C':
+//         console.log("Stud iis okay");
+//         break;
+//     default:
+//         console.log("THe student is kicked")
+// }
 
 // Using switch case you need to check if a student's percent is good or avg if the value is > 75 excellent less than 75 avg.
 
 
 // 4. Neha mam has changed a bit and she told both ahan and sohan that if one of them passes the test she will she won't complain to the parents. 
+
+
+// var percent = 80
+
+// switch(true){
+//     case (percent > 75):
+//         alert("Excellent");
+//         break;
+//     case (percent < 75):
+//         alert("Avg");
+//         break;
+//     default:
+//         alert("You should leave your kid!!!")
+// }
+
+// var ahhan = 10;
+// var sohhan = 100;
+
+// if(ahhan > 10 || sohhan > 10){
+//     console.log("Neha wont complain")
+// }else{
+//     console.log("Neha is gonna give you some trauma");
+// }
+
+// Two String Methods
+
+// var text = "Neha is in class 8 and Sohan is in class 7";
+
+// var newText = text.split(" ");
+
+// console.log(newText);
+
+// var changedText = newText.join(",")
+
+// console.log(changedText);
+
+// var newText1 = text.slice(0,7)
+
+// console.log(newText1);
+
+
+// Array Methods
+
+// var arr = ["neha", "sohan", "sohan sir", "ahhan", "sohan ceo codingzen"];
+
+// console.log(arr.slice(1,4));
+
+// const arr = ["neha", "sohan", "sohan sir", "ahhan", "sohan ceo codingzen"];
+
+// arr.splice(1,0, "swayam") // Start Index, Delete Count, Insert 
+
+// console.log(arr);

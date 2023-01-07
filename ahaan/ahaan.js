@@ -178,34 +178,127 @@
 // 2. name,color,company,cost.
 // 3. Speed, Average, playmusic
 // 4. you need to create 3 car objects.
-  class car{
-    constructor(name, colour, company, cost, speed, average, music){
-        this.name = name;
-        this.colour = colour;
-        this.company = company;
-        this.cost = cost;
-        this.speed = speed;
-        this.average = average;
-        this.music = music;
-    }
+  // class car{
+  //   constructor(name, colour, company, cost, speed, average, music){
+  //       this.name = name;
+  //       this.colour = colour;
+  //       this.company = company;
+  //       this.cost = cost;
+  //       this.speed = speed;
+  //       this.average = average;
+  //       this.music = music;
+  //   }
 
-    speed(){
-      alert(this.speed)
-    }
-    average(){
-      alert(this.average)
-    }
-    music(){
-      alert(this.music)
-    }
-  }
+  //   speed(){
+  //     alert(this.speed)
+  //   }
+  //   average(){
+  //     alert(this.average)
+  //   }
+  //   music(){
+  //     alert(this.music)
+  //   }
+  // }
 
 
   
-  var car1 =  new car("ford1520987", "black", "ford", "$2507893", "148970km/h", "-905423km", "yes")
-  var car2 =  new car("toyota43895-0", "red", "toyota", "$2689403", "548902km/h", "35643564km", "no")
-  var car3 =  new car("nissan159870", "blue", "nissan", "$19027583", "452324352km/h", "24378590km", "depends")
+  // var car1 =  new car("ford1520987", "black", "ford", "$2507893", "148970km/h", "-905423km", "yes")
+  // var car2 =  new car("toyota43895-0", "red", "toyota", "$2689403", "548902km/h", "35643564km", "no")
+  // var car3 =  new car("nissan159870", "blue", "nissan", "$19027583", "452324352km/h", "24378590km", "depends")
 
-  car1.speed()
-  car3.average()
-  car2.music()
+  // car1.speed()
+  // car3.average()
+  // car2.music()
+
+  //var arr = ["ahan","neha","sohan"];
+
+  // for(x=0;x<arr.length;x++){
+  //   console.log(arr[x]);
+  // }
+
+  // for(var name of arr){
+  //   console.log(name);
+  // }
+
+  // arr.forEach(function(name,index,array){
+  //     console.log(name + " Is at index " + index)
+  //     console.log(array);
+  // })
+
+// Task 12
+// Read about foreach
+// Using for of loop iterate through the array and log it to the console
+// Using for each loop iterate throught the array and log it to the console
+// using for each loop itereate thorugh the array and log the element as well as the index of the array.
+// use a numbers array using for each loop iterate through the array and log the element as well as the index of the array and also incerement the element by its index
+
+// Practice Session - PS 1
+// 1. Calculate the users age using his birth year Write a function to tell the age of a person. Find out current year also take an input of the birth year using prompt.
+
+
+// var age = prompt("Please enter your age")
+
+// if(age > 15){
+//   console.log("You are elidgible for driving Liscense")
+// }else{
+//   console.log("You aren't elidgible for drivers liscense")
+// }
+
+
+
+// Comparision Operators -
+
+/*
+                Answer 
+&&  true true   true
+&&  true false  false
+
+||  true true   true
+||  true false  true
+||  false false false
+
+!true = false
+!false = true  
+
+*/
+
+// var age = 22;
+// var abled = true;
+
+// if(age > 20 && abled){
+//   console.log("You are elidgible");
+// }else{
+//   console.log("You aren't elidigible");
+// }
+
+
+// if(age > 18 || abled){
+//   console.log("You are elidigible");
+// }else{
+//   console.log("You are not elidigible");
+// }
+
+
+// var age = 18;
+
+// age > 15 ? console.log("You are elidigible for a liscence") : console.log("not elidgible");
+
+
+var grades = "A";
+
+switch(grades){
+  case "A+":
+    console.log("Excellent");
+    break;
+  case "A":
+    console.log("Better");
+    break;
+  case "B":
+    console.log("Good");
+    break;
+  default:
+    console.log("Please enter a correct grade")
+}
+
+
+
